@@ -5,6 +5,6 @@ const record = [
 ]
 function superbowlWin(array) {
     let newResult=array.find(array => array.result === "W");
-    return newResult
+    return newResult.year
 }
-console.log(superbowlWin(record)); // { year: "2015", result: "W" }
+console.log(superbowlWin(record)); 
